@@ -155,6 +155,37 @@ ________________________
     margin-right: auto;
 }
 
+.box__percent {
+    width: 50%;
+    }
+
+.box__pixels {
+    width: 200px;
+    }
+  
+.box__vw {
+        width: 50vw;
+        }
+.box__vh {
+        height: 20vh;
+        }
+
+
+.font__container {
+            height: auto;
+            margin: 10px;
+            font-size: 25px;
+            }
+.font__1em {
+            font-size: 1em;
+            }
+.font__1rem {
+            font-size: 1rem;
+            }
+.font__100percent {
+            font-size: 100%;
+}
+
 .item {
     height: 150px;
     width: 150px;
@@ -162,6 +193,8 @@ ________________________
 
 .item1{
     background-color: rgb(255, 190, 225);
+    position: sticky;
+    
 }
 
 .item2{
@@ -215,19 +248,45 @@ ________________________
     background-color: var(--primary-100);
 }
 /* Extra small devices (phones, 600px and down) */
-
+@media screen and (max-width:600 px){
+    .media__container{
+    background-color: var(--primary-800);
+}
+    
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
-
+@media screen and (min-width:600 px){
+    .media__container{
+    background-color: var(--primary-800);
+}
+    
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-
+@media screen and (min-width:768 px){
+    .media__container{
+    background-color: var(--primary-800);
+}
+    
+}
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-
+@media screen and (min-width:992 px){
+    .media__container{
+    background-color: var(--primary-800);
+}
+    
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width:1200 px){
+    .media__container{
+    background-color: var(--primary-800);
+}
+    
+}
